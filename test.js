@@ -6,8 +6,8 @@ const influx = new Influx.InfluxDB({
 })
 
 const getLastMesurement = (mesurementName, cb) => {
-    influx.query(`SELECT last(value) FROM ${mesurementName}`)
-        .then(result => cb(result[0].last))
+    influx.query(`SELECT last(value), last(value) FROM temperature, humidity`)
+        .then(result => cb(result))
         .catch(console.log)
 }
 
