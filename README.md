@@ -1,4 +1,7 @@
 # homebridge-influxdb-temperature-humidity
+
+![npm](https://img.shields.io/npm/v/homebridge-influxdb-temperature-humidity?style=flat-square)
+
 HomeBridge plugin that exposes temperature/humidity values stored in an InfluxDB database. Largely inspired by [lucacri/homebridge-http-temperature-humidity](https://github.com/lucacri/homebridge-http-temperature-humidity).
 
 # Usage
