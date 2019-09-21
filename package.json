@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-influxdb-temperature-humidity",
+  "version": "0.0.1",
+  "description": "Homebridge plugin that fetches temperature/humidity from an InfluxDB instance.",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=11.0.0",
+    "homebridge": ">=0.4.5"
+  },
+  "author": {
+    "name": "Martin STEFFEN <mail@tiph.io>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tiphedor/homebridge-influxdb-temperature-humidity.git"
+  },
+  "dependencies": {
+    "influx": "^5.4.2"
+  }
+}
