@@ -34,4 +34,4 @@ Add this to the `accessories` field of your Homebridge `config.json` file (most 
 }
 ````
 
-The `influx` configuration object is passed as-is to the `influx` npm library. You can use all options supported by the library, more information can be found [here](https://node-influx.github.io/class/src/index.js~InfluxDB.html#instance-constructor-constructor)
+The `influx` configuration object is passed as-is to the `influx` npm library, so you can use all the options it supports. See [here](https://node-influx.github.io/class/src/index.js~InfluxDB.html#instance-constructor-constructor)
